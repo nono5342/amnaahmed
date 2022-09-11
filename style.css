@@ -1,26 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
 :root{
-    --pastel-pink: #ffb9ec;
-    --pink: #ff00bb;
+    --pastel-cyan: #ffb9ec;
     --pastel-cyan: #cdfffa;
-    --cyan: #3cffeb;
     --pastel-purple: #e2bcff;
-    --purple: #9000ff;
     --dark: rgb(40, 40, 40);
 }
 html{
     font-size: +7; 
-    margin:0%;
+    margin-left:5%;
+    margin-right:5%;
+    font-family: 'Montserrat', sans-serif;
 }
-h1, h3, h5
+h1, h3
 {
-color:var(--pink);
+color:var(--dark);
 background-color:var(--pastel-purple);
+font-weight: 800;
+}
+h5
+{
+ color:var(--pastel-cyan);
 
 }
-h2, h4, h6
+h2
 {
+color:var(--dark);
+background-color:var(--pastel-cyan);
+font-weight: 800;
+}
+h4, h6{
 color:var(--purple);
-background-color:var(--pastel-pink);
 }
 ul{
     list-style-type: circle;
@@ -28,23 +37,17 @@ ul{
 /*links*/
 a:link{
     color: white;
-    text-decoration: none;
 
 }
 a:visited{
     color: white;
-    text-decoration: none;
-
 }
 a:hover{
     color:var(--pastel-purple);
-    text-decoration: none;
 
 }
 a:active{
-    color: var(--pastel-pink);
-        text-decoration: none;
-
+    color: var(--pastel-cyan);
 }
 /*Nav links*/
 nav a:link{
@@ -62,12 +65,12 @@ nav a:hover{
 
 }
 nav a:active{
-    color: var(--pastel-pink);
+    color: var(--pastel-cyan);
     text-decoration: none;
 
 }
 #current-page{
-    color: var(--pastel-pink);
+    color: var(--pastel-cyan);
 }
 nav{
     position:sticky;
@@ -75,20 +78,23 @@ nav{
     text-align: center;
     
 }
-main{
-    position: fixed;
-    width:56%;
+
+#side-main{
     left:0;
-    padding-left: 2%;
+    padding-left: %;
     padding-right: 2%;
+    position: fixed;
+    width:51%;
+    padding-left: 6%;
+    border-right: 1px solid var(--pastel-purple);
+
 }
 side{
     position: fixed;
-    width: 36%;
+    width: 34%;
     right:0;
-    padding-left: 2%;
-    padding-right: 2%;
-    border-left: 1px solid var(--pastel-purple);
+    padding-left: 4%;
+    padding-right: 6%;
 }
 footer{
     position:fixed;
@@ -99,4 +105,15 @@ footer{
 body{
     background-color: var(--dark);
     color:white;
+}
+.vanilla{
+    background-color: var(--dark);
+    color:white;
+}
+.blog{
+    font-size: 1.5em;
+}
+
+#date{
+    font-weight: 300;
 }
