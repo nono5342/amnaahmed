@@ -6,9 +6,9 @@
     --dark: rgb(40, 40, 40);
 }
 html{
-    font-size: +7; 
-    margin-left:5%;
-    margin-right:5%;
+    width:96%;
+    margin-left:2%;
+    margin-right:2%;
     font-family: 'Montserrat', sans-serif;
 }
 h1, h3
@@ -80,38 +80,42 @@ nav{
 }
 
 #side-main{
-    left:0;
-    padding-left: %;
-    padding-right: 2%;
-    position: fixed;
-    width:51%;
-    padding-left: 6%;
+    position:static;
+    padding-right:4%;
+    width:56%;
     border-right: 1px solid var(--pastel-purple);
 
 }
 side{
-    position: fixed;
-    width: 34%;
-    right:0;
-    padding-left: 4%;
-    padding-right: 6%;
+    position: absolute;
+    width: 30%;
+    right:0%;
+    padding-left:4%;
+    margin-right:4%;
+}
+header{
+    width: 96%;
 }
 footer{
-    position:fixed;
-    bottom:1%;
+    position:absolute;
+    bottom:0;
     width: 100%;
     text-align: center;
 }
 body{
+    width:100%;
     background-color: var(--dark);
     color:white;
+}
+nav{
+    width:100%;
 }
 .vanilla{
     background-color: var(--dark);
     color:white;
 }
 .blog{
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 #date{
