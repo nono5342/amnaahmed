@@ -85,14 +85,6 @@ nav{
     width:56%;
     border-right: 1px solid var(--pastel-purple);
 
-}
-side{
-    position: absolute;
-    width: 30%;
-    right:0%;
-    padding-left:4%;
-    margin-right:4%;
-}
 header{
     width: 96%;
 }
