@@ -17,6 +17,9 @@ html{
 body{
 color:var(--dark);
 }
+header{
+    text-align: center;
+}
 ul{
     list-style: circle;
 }
